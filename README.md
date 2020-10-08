@@ -50,6 +50,11 @@ The project uses the unofficial github.com/reubenmiller/go-c8y Cumulocity client
 
 ## Build
 
+**Pre-requisites**
+
+* Install `jq`. Used to extract the microservice version from the cumulocity.json
+* Install `zip`. Used by microservice script to create a zip file which can be uploaded to Cumulocity
+
 Build the Cumulocity microservice zip file by executing
 
 ```sh
